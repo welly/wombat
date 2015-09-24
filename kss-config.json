@@ -1,0 +1,10 @@
+{
+  "source": "src",
+  "destination": "docs/styleguide",
+  "css": [
+    "../../build/assets/css/style.css"
+  ],
+  "js": [],
+  "template": "src/_styleguide/template",
+  "homepage": "styleguide.md"
+}

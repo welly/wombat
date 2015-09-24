@@ -1,0 +1,10 @@
+# directories
+.sass-cache
+assets
+build
+docs
+node_modules
+
+# files
+.fontcustom-manifest.json
+Gemfile.lock

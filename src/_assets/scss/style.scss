@@ -1,0 +1,66 @@
+/**
+ * @file styles.scss
+ *
+ * @brief Main sass file, responsible for imports
+ *
+ */
+
+@import 'vendor/normalize-scss/normalize';
+
+/*
+Settings
+
+Global variables and config
+
+Weight: 0
+
+Style guide: settings
+*/
+@import 'partials/settings/colours';
+
+// Third party tools
+@import 'vendor/jeet/jeet';
+@import 'sassy-maps';
+@import 'memo';
+@import 'breakpoint';
+@import 'breakpoint-slicer';
+
+/*
+Elements
+
+Weight: 1
+
+Style guide: elements
+*/
+
+
+/*
+Objects
+
+Weight: 2
+
+Style guide: objects
+*/
+
+@import 'partials/objects/buttons';
+
+/*
+Components
+
+Weight: 3
+
+Style guide: components
+*/
+
+/*
+Trumps
+
+Weight: 4
+
+Style guide: trumps
+*/
+
+body {
+  background-color: green;
+  font-family: "Arial", sans-serif;
+}
