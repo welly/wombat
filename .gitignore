@@ -1,5 +1,6 @@
 # directories
 .sass-cache
+_bower_components
 assets
 build
 docs
