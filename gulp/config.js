@@ -45,6 +45,10 @@ module.exports = {
       ]
     },
   },
+  css: {
+    src:  [srcAssets + '/css/**/style.css'],
+    dest: developmentAssets + '/css',
+  },
   copyfonts: {
     development: {
       src:  srcAssets + '/fonts/*',
@@ -63,9 +67,9 @@ module.exports = {
     css: {
       src:  developmentAssets + '/css/*.css',
       dest: productionAssets + '/css/',
-      options: {
-        keepSpecialComments: 0
-      }
+      // options: {
+      //   keepSpecialComments: 0
+      // }
     },
     js: {
       src:  developmentAssets + '/javascript/*.js',
@@ -95,6 +99,7 @@ module.exports = {
     }
   },
   watch: {
+    css: srcAssets + '/css/**/*.css',
     sass: srcAssets + '/scss/**/*.{sass,scss}',
     scripts: srcAssets + '/javascript/**/*.js',
     images: srcAssets + '/images/**/*',

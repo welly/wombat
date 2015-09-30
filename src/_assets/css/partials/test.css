@@ -1,0 +1,9 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+section {
+  background-color: blue;
+  lost-center: 800px;
+  lost-utility: clearfix;
+}
